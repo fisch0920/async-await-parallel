@@ -1,4 +1,6 @@
-# async-await-parallel [![travis](https://img.shields.io/travis/Vidy/async-await-parallel.svg)](https://travis-ci.org/Vidy/async-await-parallel) [![npm](https://img.shields.io/npm/v/async-await-parallel.svg)](https://npmjs.org/package/async-await-parallel)
+# @swinfra/async-await-parallel
+
+<!-- toc -->
 
 This module is a simple utility for limiting the concurrency of `await`ing async arrays in ES7. It replaces `Promise.all` when using `async` `await` much like `async.mapLimit` is commonly used in place of the analogous `async.map` when using callback-style async functions.
 
@@ -73,7 +75,3 @@ async function parallel (thunks, concurrency = 5)
 * [async.mapLimit](http://caolan.github.io/async/) equivalent functionality for callbacks
 * [co-parallel](https://github.com/tj/co-parallel) equivalent functionality for co generators
 * [async-parallel](https://github.com/davetemplin/async-parallel) this library is heavily inspired by this TypeScript library for async / await by Dave Templin (simplified, converted from TS to ES, and added tests)
-
-### License
-
-MIT. Copyright (c) 2017 [Vidy](https://vidy.com).

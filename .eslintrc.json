@@ -1,0 +1,3 @@
+{
+  "extends": "@swinfra/eslint-config-hpe-ee/server"
+}
