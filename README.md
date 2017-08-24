@@ -2,6 +2,14 @@
 
 <!-- toc -->
 
+- [Installation](#installation)
+- [Background](#background)
+- [Usage](#usage)
+- [API](#api)
+- [Inspiration](#inspiration)
+
+<!-- tocstop -->
+
 This module is a simple utility for limiting the concurrency of `await`ing async arrays in ES7. It replaces `Promise.all` when using `async` `await` much like `async.mapLimit` is commonly used in place of the analogous `async.map` when using callback-style async functions.
 
 ### Installation
